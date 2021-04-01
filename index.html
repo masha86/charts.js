@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .size {
+        width: 40%;
+        margin: 50px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="size">
+        <h1>WEATHER</h1>
+        <canvas id="weather"></canvas>
+      </div>
+
+      <div class="size">
+        <h1>PERSON WEIGHT</h1>
+        <canvas id="personWeight"></canvas>
+      </div>
+
+      <div class="size">
+        <h1>AMOUNT OF FOOD IN DAY</h1>
+        <canvas id="amountFood"></canvas>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="script.js"></script> 
+  </body>
+</html>  
